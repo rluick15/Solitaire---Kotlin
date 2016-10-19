@@ -5,6 +5,6 @@ class GameModel {
 
     val deck = Deck()
     val wastePile: MutableList<Card> = arrayListOf()
-    val foundationPiles = arrayOf(FoundationPile("Clubs"), FoundationPile("Diamonds"),
-            FoundationPile("Hearts"), FoundationPile("Spades"))
+    val foundationPiles = arrayOf(FoundationPile(clubs), FoundationPile(diamonds),
+            FoundationPile(hearts), FoundationPile(spades))
 }
